@@ -1,0 +1,56 @@
+/* giving the body a dark background to better see the bright colored boxes */
+body {
+  background-color: lightgrey;
+}
+
+h4 {
+  font-weight: bold;
+  color: turquoise;
+}
+
+.div-panel {
+  padding: 25px;
+  box-sizing: border-box;
+} 
+
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: turquoise;
+  font-weight: bold;
+}
+
+.panel-title {
+  color: turquoise;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.div-panel .panel-heading {
+  background: white;
+}
+  .div-panel .panel-body {
+
+  font-size: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 2px; 
+  width: 100%;
+  background-color: grey;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-top: 5px solid turquoise;
+}
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 600px) {
+  /* 
+  .navbar-default {
+    background-color: turquoise;
+  } 
+  */
+}
